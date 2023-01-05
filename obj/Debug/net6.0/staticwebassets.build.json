@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "zcLniY35qNof/1VL/ozLH+zocNornnfFPKKsbbnVjz8=",
+  "Source": "waffleApp",
+  "BasePath": "_content/waffleApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "waffleApp/wwwroot",
+      "Source": "waffleApp",
+      "ContentRoot": "/Users/admin/Desktop/waffleApp.Solution/waffleApp/wwwroot/",
+      "BasePath": "_content/waffleApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/admin/Desktop/waffleApp.Solution/waffleApp/wwwroot/css/styles.css",
+      "SourceId": "waffleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/admin/Desktop/waffleApp.Solution/waffleApp/wwwroot/",
+      "BasePath": "_content/waffleApp",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    }
+  ]
+}

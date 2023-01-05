@@ -1,0 +1,11 @@
+@using Microsoft.AspNetCore.Components
+
+<AutoForm actionPath="/person/add" title="New Person" inputs=@personInputs />
+
+@code {
+    Dictionary<string, string> personInputs = new Dictionary<string, string>{
+      {"text", "name"},
+      {"number", "age"},
+      {"date", "birthday"}
+  };
+}

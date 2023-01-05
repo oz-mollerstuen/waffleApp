@@ -1,0 +1,22 @@
+@using Microsoft.AspNetCore.Components
+
+<AutoForm title="New Person" inputs=@personInputs />
+<AutoForm title="New Pizza" dropDowns=@pizzaInputs />
+
+@code {
+  Dictionary<string, string> personInputs = new Dictionary<string, string>{
+{"text", "name"},
+{"number", "age"},
+{"date", "birthday"}
+};
+  static string pizzaName = "type";
+
+  static string[] pizzaTypes = new string[]{
+    "pepporoni",
+    "cheese",
+    "bbq"
+  };
+  Dictionary<string, string[]> pizzaInputs {get; set;} = new Dictionary<string, string[]>{
+    {pizzaName, pizzaTypes}
+  };
+}

@@ -1,0 +1,48 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = waffleApp
+build_property.RootNamespace = waffleApp
+build_property.ProjectDir = /Users/admin/Desktop/waffleApp.Solution/waffleApp/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/admin/Desktop/waffleApp.Solution/waffleApp
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/admin/Desktop/waffleApp.Solution/waffleApp/Views/Shared/AutoForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0F1dG9Gb3JtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/admin/Desktop/waffleApp.Solution/waffleApp/Views/Shared/Pages/IndexPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1BhZ2VzL0luZGV4UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/admin/Desktop/waffleApp.Solution/waffleApp/Views/Shared/Pages/IndexPerson.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1BhZ2VzL0luZGV4UGVyc29uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/admin/Desktop/waffleApp.Solution/waffleApp/Views/Shared/Test.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Rlc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/admin/Desktop/waffleApp.Solution/waffleApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/admin/Desktop/waffleApp.Solution/waffleApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/admin/Desktop/waffleApp.Solution/waffleApp/Views/Person/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/admin/Desktop/waffleApp.Solution/waffleApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

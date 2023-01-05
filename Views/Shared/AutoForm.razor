@@ -1,0 +1,47 @@
+@using Microsoft.AspNetCore.Components
+
+<div class="w-@inputSize">
+  <h2>@Title</h2>
+  <form action="@actionPath" method="post">
+    @if (inputs.Count > 0)
+    {
+      @foreach (KeyValuePair<string, string> inputTag in inputs)
+      {
+        <label for="@inputTag.Value">@inputTag.Value</label>
+        <br>
+        <input class="form-control" type="@inputTag.Key" id="@inputTag.Value" name="@inputTag.Value" required>
+      }
+    }
+    @if (dropDowns.Count > 0)
+    {
+    @foreach (KeyValuePair<string, string[]> inputOption in dropDowns)
+    {
+      <label for="@inputOption.Key">@inputOption.Key</label>
+      <br>
+      <select name="@inputOption.Key" id="@inputOption.Key">
+        @foreach (string opt in inputOption.Value) {
+          <option value="@opt">@opt</option>
+        }
+      </select>
+    }
+    }
+    <br>
+    <br>
+    <button class="btn btn-info" type="submit">submit</button>
+  </form>
+</div>
+<br>
+
+@code {
+  [Parameter]
+  public string Title {get; set;} = "title";
+  [Parameter]
+  public string actionPath {get; set;} = "/";
+  [Parameter]
+  public Dictionary<string, string> inputs {get; set;} = new Dictionary<string, string>{};
+
+  [Parameter]
+  public Dictionary<string, string[]> dropDowns {get; set;} = new Dictionary<string, string[]>{};
+  [Parameter]
+  public int inputSize {get; set;} = 25;
+}
